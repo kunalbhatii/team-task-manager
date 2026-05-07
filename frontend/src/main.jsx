@@ -8,14 +8,14 @@ import {
 
 import "./index.css";
 
-import App from "./App";
-import Dashboard from "./pages/Dashboard";
+import Login from "./pages/Login";
+import Dashboard from "./pages/dashboard";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
